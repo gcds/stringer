@@ -22,7 +22,7 @@ gem "thread"
 
 group :production do
   gem "unicorn"
-  gem "pg"
+  gem "mysql2"
 end
 
 group :development do
